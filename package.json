@@ -1,0 +1,38 @@
+{
+  "name": "dickachu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+ "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk",
+    "deploy": "cdk deploy",
+    "destroy": "cdk destroy",
+    "synth": "cdk synth"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1two3code/dickachu.git"
+  },
+  "keywords": [],
+  "author": "Hasse Löfgren",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1two3code/dickachu/issues"
+  },
+  "homepage": "https://github.com/1two3code/dickachu#readme",
+  "dependencies": {
+    "@aws-cdk/aws-certificatemanager": "^1.89.0",
+    "@aws-cdk/aws-cloudfront": "^1.89.0",
+    "@aws-cdk/aws-route53": "^1.89.0",
+    "@aws-cdk/aws-route53-targets": "^1.89.0",
+    "@aws-cdk/aws-s3": "^1.89.0",
+    "@aws-cdk/aws-s3-deployment": "^1.89.0",
+    "@aws-cdk/core": "^1.89.0"
+  },
+  "devDependencies": {
+    "@types/node": "14.14.27",
+    "typescript": "4.1.5"
+  }
+}
